@@ -1,13 +1,13 @@
 import csv
    
 def student_add():
-    with open("student.csv", "a") as obj:
+    with open("student.csv", "a",newline="") as obj:
         wobj=csv.writer(obj)
         while True:
             id=input("Enter Student ID ")
             name=input("Enter Name ")
             roll=input("Enter Class Roll Number ")
-            batch=input("Enter Batch Name ")
+            batch=input("Enter Batch ID ")
             record=[id,name,roll,batch]
             wobj.writerow(record)
             ch=input("exit to exit, any other key to continue ")
