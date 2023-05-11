@@ -1,0 +1,5 @@
+phys 78 C PASS
+chem 12 F FAIL
+maths 98 A PASS
+eng 54 E PASS
+bio 43 F FAIL
